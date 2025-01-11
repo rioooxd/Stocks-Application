@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Error";
+}
+<div class="text-center">
+    <h1>@ViewBag.StatusCode</h1>
+    <h2 class="text-red">@ViewBag.ErrorMessage</h2>
+    <a asp-controller="Trade" asp-action="Index" class="text-green" style="margin-top: 50px">Go to home page</a>
+</div>
